@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.1'
+ruby '3.3.3'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.2', '>= 7.0.2.2'
@@ -77,3 +77,5 @@ end
 gem 'tailwindcss-rails', '~> 2.0'
 
 gem 'devise', '~> 4.8'
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
