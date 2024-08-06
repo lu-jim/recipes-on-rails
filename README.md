@@ -25,7 +25,7 @@ The Recipe app keeps track of all your recipes, ingredients, and inventory. It w
 Clone this repo and enter the directory.
 
 ```sh
-git clone git@github.com:eapenzacharias/recipes-on-rails.git && cd recipes-on-rails
+git clone git@github.com:lu-jim/recipes-on-rails.git && cd recipes-on-rails
 ```
 
 ### Install
@@ -56,7 +56,10 @@ rails s # can be used after starting the app at least once
 bundle exec rspec spec
 ```
 
-## Author
+### Live version:
+- http://recipes-on-rails.fly.dev
+
+## Authors
 
 👤 **Eapen Zacharias**
 
